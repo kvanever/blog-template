@@ -269,4 +269,11 @@ html {
   .navigation .navigation-menu-button {
     font-size: 2em; }
 
+.post h1 {
+  margin-bottom: 0; }
+.post ul {
+  display: flex; }
+  .post ul li {
+    flex: 1; }
+
 /*# sourceMappingURL=styles.css.map */
