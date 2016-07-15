@@ -258,15 +258,90 @@ html {
       padding-right: 1em; } }
 
 .navigation {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  .navigation::after {
+    clear: both;
+    content: "";
+    display: block; }
   .navigation h1 {
     font-size: 3em;
     color: #333;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    text-align: left; }
   .navigation h2 {
     margin: 0;
-    color: #ddd; }
+    color: #ddd;
+    text-align: left; }
   .navigation .navigation-menu-button {
     font-size: 2em; }
+  .navigation nav {
+    margin-left: 80.56723%;
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 19.43277%; }
+    .navigation nav:last-child {
+      margin-right: 0; }
+
+.post {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  .post::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .post h1 {
+    margin-bottom: 0; }
+    @media screen and (min-width: 480px) {
+      .post h1 {
+        font-size: 2em; } }
+  .post ul {
+    display: flex; }
+    .post ul li {
+      flex: 1; }
+
+.comment, .reply {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #333;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 3px #666666;
+  margin: 1em; }
+  .comment::after, .reply::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .comment figure, .reply figure {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 19.43277%;
+    font-size: 0.75em;
+    font-weight: bold;
+    margin: 1em; }
+    .comment figure:last-child, .reply figure:last-child {
+      margin-right: 0; }
+  .comment p, .reply p {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 73.14426%;
+    text-align: left;
+    margin: 1em; }
+    .comment p:last-child, .reply p:last-child {
+      margin-right: 0; }
+
+.reply {
+  margin-left: 26.85574%; }
 
 /*# sourceMappingURL=styles.css.map */
