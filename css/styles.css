@@ -276,4 +276,26 @@ html {
   .post ul li {
     flex: 1; }
 
+.comment, .reply {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #333;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 3px #666666;
+  margin: 1em; }
+  .comment figure, .reply figure {
+    flex: 1;
+    font-size: 0.75em;
+    font-weight: bold;
+    margin: 1em; }
+  .comment p, .reply p {
+    flex: 3;
+    text-align: left; }
+
+.reply {
+  margin-left: 26.85574%; }
+
 /*# sourceMappingURL=styles.css.map */
